@@ -4,6 +4,12 @@ body {
   font-family: Arial, sans-serif;
   display: flex;
   min-height: 100vh;
+  background-image: url(./assets/sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
 }
 
 .weather-app {
