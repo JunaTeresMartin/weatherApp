@@ -47,8 +47,10 @@ const WeatherApp = () => {
           onChange={(e) => setCity(e.target.value)}
           placeholder="Enter city name"
         />
-        <br/>
-        <button type="submit" className="btn btn-primary">Search</button>
+        <br />
+        <button type="submit" className="btn btn-primary">
+          Search
+        </button>
       </form>
 
       {loading && <p>Loading...</p>}
